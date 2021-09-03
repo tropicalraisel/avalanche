@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "hueman": "^2.1.3"
+  },
+  "lock": {
+    "hueman#^2.1.3": "hueman@v2.1.3-5b8y8npx5feiJPqgqL57"
+  }
+}
