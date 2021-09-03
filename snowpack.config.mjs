@@ -8,7 +8,15 @@ export default {
     public: { url: '/', static: true, resolve: false }
   },
   plugins: [
-    /* ... */
+    [
+      '@snowpack/plugin-webpack',
+      {
+        extendConfig: (config) => {
+          // config.plugins.push();
+          return config;
+        },
+      },
+    ],
   ],
   packageOptions: {
     NODE_ENV: true,

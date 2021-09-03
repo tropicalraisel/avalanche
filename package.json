@@ -3,6 +3,7 @@
   "type": "module",
   "packageManager": "yarn@3.0.2",
   "devDependencies": {
+    "@snowpack/plugin-webpack": "^3.0.0",
     "json-parse-even-better-errors": "^2.3.1",
     "mkdirp-infer-owner": "^2.0.0",
     "snowpack": "^3.8.8",
